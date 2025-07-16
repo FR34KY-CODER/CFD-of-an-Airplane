@@ -16,9 +16,6 @@ This project involves the **Computational Fluid Dynamics (CFD)** analysis of a *
 - Designed a simplified fixed-wing aircraft model using SolidWorks surface and solid modeling tools.
 - Exported the final geometry as `.STL` for compatibility with Fluent preprocessing.
 
-📷 *Insert CAD image here*  
-`![CAD Model - SolidWorks](images/aircraft_solidworks.png)`
-
 ---
 
 ### 2. Preprocessing & Meshing – ANSYS Meshing
@@ -26,9 +23,6 @@ This project involves the **Computational Fluid Dynamics (CFD)** analysis of a *
 - Imported the STL model into ANSYS Fluent Mesher.
 - Generated **unstructured tetrahedral mesh**, with inflation layers near the surface to capture boundary layer effects.
 - Mesh quality was refined based on **skewness** and **orthogonality** metrics.
-
-📷 *Insert mesh image here*  
-`![Mesh Structure](images/aircraft_mesh.png)`
 
 ---
 
@@ -41,19 +35,12 @@ This project involves the **Computational Fluid Dynamics (CFD)** analysis of a *
   - **Aircraft Body:** No-slip wall
 - Air properties were set to standard sea-level conditions.
 
-📷 *Insert Fluent setup image here*  
-`![Boundary Conditions](images/fluent_bc.png)`
-
 ---
 
 ### 4. Results & Postprocessing
 
 - Visualized **velocity streamlines**, **pressure contours**, and **wall shear stress** on aircraft surfaces.
 - Calculated **lift and drag coefficients**, and observed flow separation zones on the tail and wing edges.
-
-📷 *Insert simulation result images here*  
-`![Pressure Distribution](images/pressure_contours.png)`  
-`![Velocity Streamlines](images/streamlines.png)`
 
 ---
 
